@@ -12,7 +12,7 @@
 <td>
 <h1> Total Amount</h1> </br>
 
-<%= (Integer.parseInt(request.getParameter("Principal"))) * (Integer.parseInt(request.getParameter("Year"))) *(8/100) %>
+<%= (Integer.parseInt(request.getParameter("Principal"))) * (Integer.parseInt(request.getParameter("Year"))) *(12/100) %>
 
 </td>
 </tr>
