@@ -10,7 +10,7 @@
 <img src="images/tomcat.gif">
 </td>
 <td>
-<h1> Total Interest Amounts Ibu - kaja - Success </br>
+<h1> Total Interest Amounts Ibu - kaja -Mega Success </br>
 
 <%= (Integer.parseInt(request.getParameter("Principal"))) * (Integer.parseInt(request.getParameter("Year"))) *(25/100) %>
 
