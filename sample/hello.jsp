@@ -10,15 +10,14 @@
 <img src="images/tomcat.gif">
 </td>
 <td>
-<h1>Sample Application JSP Page</h1>
-This is the output of a JSP page that is part of the Hello, World
-application.</td></br>
+<h1>Calculation of Interest</h1>
+Try Try Try ....!!!!! </td></br>
 <form action="Total.jsp" method="get" id="form1">
 Principal : <input type="text" name="Principal" /></br>
 No. of Years : <input type="text" name="Year" /></br>
 </form>
 
-<button type="submit" value="Calculate" form="form1">Calculate</button>
+<button type="submit" value="Calculate" form="form1">Final Amount</button>
 </td>
 </tr>
 </table>
