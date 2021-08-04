@@ -10,7 +10,7 @@
 <img src="images/tomcat.gif">
 </td>
 <td>
-<h1>Calculation of Interest</h1>
+<h1>Calculation of Interest $$</h1>
 GIT-JENKINS-MAVEN-TOMCAT....!!!!! </td></br>
 <form action="Total.jsp" method="get" id="form1">
 Principal : <input type="text" name="Principal" /></br>
