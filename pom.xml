@@ -37,7 +37,7 @@
         </build>
     </profile>
 </profiles>
-
+<properties><failOnMissingWebXml>false</failOnMissingWebXml></properties>
  <!--
   <build>
     <finalName>sample</finalName>
