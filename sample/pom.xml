@@ -33,7 +33,7 @@
         <id>ibu</id>
         <build>
             <directory>C:\apache-tomcat-10.0.8-windows-x86\apache-tomcat-10.0.8\webapps</directory>
-            <finalName>\sample</finalName>
+            <!-- <finalName>\sample</finalName> -->
         </build>
     </profile>
 </profiles>
