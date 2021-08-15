@@ -18,7 +18,15 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
-
+ <profiles>
+    <profile>
+        <id>ibu</id>
+        <build>
+            <directory>C:\apache-tomcat-9.0.52\webapps</directory>
+            <!-- <finalName>\sample</finalName> -->
+        </build>
+    </profile>
+</profiles>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -63,14 +71,6 @@
         </plugin>
       </plugins>
     </pluginManagement>
-    <profiles>
-    <profile>
-        <id>ibu</id>
-        <build>
-            <directory>C:\apache-tomcat-9.0.52\webapps</directory>
-            <!-- <finalName>\sample</finalName> -->
-        </build>
-    </profile>
-</profiles>
+    
   </build>
 </project>
