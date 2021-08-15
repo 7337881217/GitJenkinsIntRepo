@@ -63,5 +63,14 @@
         </plugin>
       </plugins>
     </pluginManagement>
+    <profiles>
+    <profile>
+        <id>ibu</id>
+        <build>
+            <directory>C:\apache-tomcat-9.0.52\webapps</directory>
+            <!-- <finalName>\sample</finalName> -->
+        </build>
+    </profile>
+</profiles>
   </build>
 </project>
