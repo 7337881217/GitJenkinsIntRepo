@@ -14,7 +14,7 @@
 GIT-JENKINS-MAVEN-TOMCAT....!!!!! </td></br>
 <form action="Total.jsp" method="get" id="form1">
 Principal : <input type="text" name="Principal" /></br>
-No. of Years : <input type="text" name="Year" /></br>
+No. of Years : <input type=number name="Year" /></br>
 </form>
 
 <button type="submit" value="Calculate" form="form1">Final Amount</button>
