@@ -12,7 +12,7 @@
 <td>
 <h1> Overall - Amount - Vela  and Ibu </h1> </br>
 
-<%= (Integer.parseInt(request.getParameter("Principal"))) * (Integer.parseInt(request.getParameter("Year"))) %>
+<%= (Integer.parseInt(request.getParameter("Principal"))) / (Integer.parseInt(request.getParameter("Year"))) %>
 
 </td>
 </tr>
